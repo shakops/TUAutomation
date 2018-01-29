@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Search with valid data",
+        "description": "",
+        "id": "search;search-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22721501911,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "i am in home page",
+            "match": {
+              "location": "HomePageStepDef.i_am_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176966917,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i enter valid product details",
+            "match": {
+              "location": "HomePageStepDef.i_enter_valid_product_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5319400440,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i select search button",
+            "match": {
+              "location": "HomePageStepDef.i_select_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1700289,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i should see search results page",
+            "match": {
+              "location": "SearchResultsPageStepDef.i_should_see_search_results_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login With Valid Data",
+        "description": "",
+        "id": "login;login-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18716615432,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Home page",
+            "match": {
+              "location": "LoginPageStepDef.i_am_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3232933153,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Select on Login Link",
+            "match": {
+              "location": "LoginPageStepDef.i_Select_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69332873,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the login page",
+            "match": {
+              "location": "LoginPageStepDef.i_should_see_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217074811,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the valid email address and valid password",
+            "match": {
+              "location": "LoginPageStepDef.i_enter_the_valid_email_address_and_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2291012111,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginPageStepDef.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44475,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i should see the welcome page",
+            "match": {
+              "location": "LoginPageStepDef.i_should_see_the_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
